@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
 
-#include "Çì´õ.h"
+#include "Ã‡Ã¬Â´Ãµ.h"
 
 
-
+//ì—¬ê¸°ë„í•œê¸€ 
 
 int main() {
 
 	start a;
 	start *pa = &a;
 
-	pa->rooms1();		  //µ¿Àû¹ÙÀÎµù
+	pa->rooms1();		  //ÂµÂ¿Ã€Ã»Â¹Ã™Ã€ÃŽÂµÃ¹
 	pa->teacher_room();
 
 
