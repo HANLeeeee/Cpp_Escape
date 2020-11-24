@@ -4,6 +4,7 @@
 #ifndef _ESCAPE_H_
 #define _ESCAPE_H_
 
+//í•œê¸€ ì œë°œ
 
 class level2 {
 private:
@@ -26,7 +27,7 @@ private:
 
 public:
 	level1() { system("cls"); }
-	virtual void rooms1();					//µ¿Àû¹ÙÀÎµù
+	virtual void rooms1();					//ÂµÂ¿Ã€Ã»Â¹Ã™Ã€ÃŽÂµÃ¹
 	void teacher_room();
 };
 
