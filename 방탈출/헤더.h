@@ -4,7 +4,6 @@
 #ifndef _ESCAPE_H_
 #define _ESCAPE_H_
 
-//한글 제발
 
 class level2 {
 private:
@@ -27,7 +26,7 @@ private:
 
 public:
 	level1() { system("cls"); }
-	virtual void rooms1();					//µ¿Àû¹ÙÀÎµù
+	virtual void rooms1();					//동적바인딩
 	void teacher_room();
 };
 

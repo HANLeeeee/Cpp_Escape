@@ -1,20 +1,20 @@
 #include <iostream>
 #include <conio.h>
 using namespace std;
-//한글이 
-#include "渦.h"	
+
+#include "헤더.h"	
 
 #define Enter 13
 
 void level2::rooms2() {
 	system("cls");
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "				2類縑 紫雜 " << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "				2층에 도착 " << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 	system("pause"); system("cls");
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "				2類 寞擊 萃楝爾濠" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "				2층 방을 둘러보자" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 	system("pause"); system("cls");
 	int ch = 0;
 	int select = 0;
@@ -22,58 +22,58 @@ void level2::rooms2() {
 	while (1) {
 		system("cls");
 		if (select == 0) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				Ⅱ濰褒" << endl;
-			cout << "				  掖褒1" << endl;
-			cout << "				  掖褒2" << endl;
-			cout << "				  1類戲煎 棻衛 頂溥陛晦" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				▶화장실" << endl;
+			cout << "				  교실1" << endl;
+			cout << "				  교실2" << endl;
+			cout << "				  1층으로 다시 내려가기" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 1) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  濰褒" << endl;
-			cout << "				Ⅱ掖褒1" << endl;
-			cout << "				  掖褒2" << endl;
-			cout << "				  1類戲煎 棻衛 頂溥陛晦" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  화장실" << endl;
+			cout << "				▶교실1" << endl;
+			cout << "				  교실2" << endl;
+			cout << "				  1층으로 다시 내려가기" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 2) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  濰褒" << endl;
-			cout << "				  掖褒1" << endl;
-			cout << "				Ⅱ掖褒2" << endl;
-			cout << "				  1類戲煎 棻衛 頂溥陛晦" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  화장실" << endl;
+			cout << "				  교실1" << endl;
+			cout << "				▶교실2" << endl;
+			cout << "				  1층으로 다시 내려가기" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 3) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  濰褒" << endl;
-			cout << "				  掖褒1" << endl;
-			cout << "				  掖褒2" << endl;
-			cout << "				Ⅱ1類戲煎 棻衛 頂溥陛晦" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  화장실" << endl;
+			cout << "				  교실1" << endl;
+			cout << "				  교실2" << endl;
+			cout << "				▶1층으로 다시 내려가기" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 
 
 		ch = _getch();
-		if (ch == 80) {							  //嬴楚煎 頂塭晦
+		if (ch == 80) {							  //아래로 내라기
 			if (select == 3) select = 0;
 			else select++;
 		}
-		else if (ch == 72) {					  //嬪煎 螢葬晦
+		else if (ch == 72) {					  //위로 올리기
 			if (select == 0) select = 3;
 			else select--;
 		}
-		else if (ch == Enter && select == 0)      //濰褒菟橫陛晦
+		else if (ch == Enter && select == 0)      //화장실들어가기
 			rest_room();
 
-		else if (ch == Enter && select == 1)      //掖褒1 菟橫陛晦
+		else if (ch == Enter && select == 1)      //교실1 들어가기
 			class_room1();
 
-		else if (ch == Enter && select == 2)      //掖褒2 菟橫陛晦
+		else if (ch == Enter && select == 2)      //교실2 들어가기
 			class_room2();
 
-		else if (ch == Enter && select == 3)      //1類戲煎 頂溥陛晦
+		else if (ch == Enter && select == 3)      //1층으로 내려가기
 			open();
 	}
 
@@ -81,9 +81,9 @@ void level2::rooms2() {
 
 void level2::rest_room() {
 	system("cls");
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "				剪選縑 鼠樹陛 氈棻 " << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "				거울에 무언가 있다 " << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 	system("pause");
 
 	int ch = 0;
@@ -92,16 +92,16 @@ void level2::rest_room() {
 	while (1) {
 		system("cls");
 		if (select == 0) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				Ⅱ濠撮 獄棻" << endl;
-			cout << "				  斜傖 除棻" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				▶자세히 본다" << endl;
+			cout << "				  그냥 간다" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 1) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  濠撮 獄棻" << endl;
-			cout << "				Ⅱ斜傖 除棻" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  자세히 본다" << endl;
+			cout << "				▶그냥 간다" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 
 		ch = _getch();
@@ -113,35 +113,35 @@ void level2::rest_room() {
 			if (select == 0) select = 1;
 			else select = 0;
 		}
-		else if (ch == Enter && select == 0) { //濰褒剪選爾晦
+		else if (ch == Enter && select == 0) { //화장실거울보기
 			system("cls");
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				旋濠陛 氈啻...?" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				글자가 있네...?" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 			system("pause"); system("cls");
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl;
-			cout << "				﹥﹥﹥﹥       ﹥﹥﹥﹥" << endl;
-			cout << "				﹥      ﹥    ﹥      ﹥" << endl;
-			cout << "				﹥       ﹥   ﹥      ﹥" << endl;
-			cout << "				﹥﹥﹥﹥﹥    ﹥      ﹥" << endl;
-			cout << "				﹥    ﹥      ﹥      ﹥" << endl;
-			cout << "				﹥     ﹥     ﹥      ﹥" << endl;
-			cout << "				﹥      ﹥    ﹥      ﹥" << endl;
-			cout << "				﹥       ﹥    ﹥﹥﹥﹥" << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl;
+			cout << "				■■■■       ■■■■" << endl;
+			cout << "				■      ■    ■      ■" << endl;
+			cout << "				■       ■   ■      ■" << endl;
+			cout << "				■■■■■    ■      ■" << endl;
+			cout << "				■    ■      ■      ■" << endl;
+			cout << "				■     ■     ■      ■" << endl;
+			cout << "				■      ■    ■      ■" << endl;
+			cout << "				■       ■    ■■■■" << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 			system("pause"); system("cls");
 
 		}
-		else if (ch == Enter && select == 1)    //濰褒釭陛晦
+		else if (ch == Enter && select == 1)    //화장실나가기
 			break;
 	}
 }
 
 void level2::class_room1() {
 	system("cls");
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "				綴奢疇婁 斜 蕙縑 翱檜...? " << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "				빈공책과 그 옆에 연필이...? " << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 	system("pause"); system("cls");
 
 	int ch = 0;
@@ -151,25 +151,25 @@ void level2::class_room1() {
 		system("cls");
 
 		if (select == 0) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				Ⅱ翱煎 儀艦爾晦" << endl;
-			cout << "				  翱煎 寞貲煙 陴晦晦" << endl;
-			cout << "				  鼠衛堅 掖褒1縑憮 釭陛晦" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				▶연필로 색칠해보기" << endl;
+			cout << "				  연필로 방명록 남기기" << endl;
+			cout << "				  무시하고 교실1에서 나가기" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 1) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  翱煎 儀艦爾晦" << endl;
-			cout << "				Ⅱ翱煎 寞貲煙 陴晦晦" << endl;
-			cout << "				  鼠衛堅 掖褒1縑憮 釭陛晦" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  연필로 색칠해보기" << endl;
+			cout << "				▶연필로 방명록 남기기" << endl;
+			cout << "				  무시하고 교실1에서 나가기" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 2) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  翱煎 儀艦爾晦" << endl;
-			cout << "				  翱煎 寞貲煙 陴晦晦" << endl;
-			cout << "				Ⅱ鼠衛堅 掖褒1縑憮 釭陛晦" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  연필로 색칠해보기" << endl;
+			cout << "				  연필로 방명록 남기기" << endl;
+			cout << "				▶무시하고 교실1에서 나가기" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 
 		ch = _getch();
@@ -181,29 +181,29 @@ void level2::class_room1() {
 			if (select == 0) select = 2;
 			else select--;
 		}
-		else if (ch == Enter && select == 0) {   //翱煎 艦爾晦 
+		else if (ch == Enter && select == 0) {   //연필로 칠해보기 
 			system("cls");
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				嬴棲..! 獗啖霞 旋濠陛...!" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				아니..! 숨겨진 글자가...!" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 			system("pause"); system("cls");
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl;
-			cout << "				﹥﹥﹥﹥﹥  ﹥﹥﹥﹥﹥" << endl;
-			cout << "				﹥          ﹥        " << endl;
-			cout << "				﹥          ﹥        " << endl;
-			cout << "				﹥﹥﹥﹥﹥  ﹥﹥﹥﹥﹥" << endl;
-			cout << "				        ﹥  ﹥        " << endl;
-			cout << "				        ﹥  ﹥        " << endl;
-			cout << "				﹥﹥﹥﹥﹥  ﹥﹥﹥﹥﹥" << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl;
+			cout << "				■■■■■  ■■■■■" << endl;
+			cout << "				■          ■        " << endl;
+			cout << "				■          ■        " << endl;
+			cout << "				■■■■■  ■■■■■" << endl;
+			cout << "				        ■  ■        " << endl;
+			cout << "				        ■  ■        " << endl;
+			cout << "				■■■■■  ■■■■■" << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 			system("pause"); system("cls");
 		}
-		else if (ch == Enter && select == 1) {   //翱煎 寞貲煙 陴啖爾晦
+		else if (ch == Enter && select == 1) {   //연필로 방명록 남겨보기
 			system("cls");
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				頂 檜葷擊 瞳歷渦棲..." << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				戲學...." << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				내 이름을 적었더니..." << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				으악...." << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 			system("pause"); system("cls");
 			cout << "gameover" << endl;
 			exit(0);
@@ -216,13 +216,13 @@ void level2::class_room1() {
 
 void level2::class_room2() {
 	system("cls");
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "				濡啖氈朝 熱鼻 餌僭 嫦唯" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "				잠겨있는 수상한 사물함 발견" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl;
 	system("pause"); system("cls");
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "				橫獐梱?" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "				풀어볼까?" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl;
 	system("pause"); system("cls");
 
 	int ch = 0;
@@ -231,16 +231,16 @@ void level2::class_room2() {
 	while (1) {
 		system("cls");
 		if (select == 0) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				Ⅱ綠塵廓蒂 殮溘獄棻" << endl;
-			cout << "				  斜傖 除棻" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				▶비밀번호를 입력해본다" << endl;
+			cout << "				  그냥 간다" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 1) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  綠塵廓蒂 殮溘獄棻" << endl;
-			cout << "				Ⅱ斜傖 除棻" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  비밀번호를 입력해본다" << endl;
+			cout << "				▶그냥 간다" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 
 		ch = _getch();
@@ -252,31 +252,31 @@ void level2::class_room2() {
 			if (select == 0) select = 1;
 			else select = 0;
 		}
-		else if (ch == Enter && select == 0) {    //綠塵廓殮溘
+		else if (ch == Enter && select == 0) {    //비밀번호입력
 			system("cls");
 			char password2[4];
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				綠塵廓蒂 殮溘撮蹂 (渠僥濠煎)" << endl << "				綠廓殮溘->"; cin >> password2;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				비밀번호를 입력하세요 (대문자로)" << endl << "				비번입력->"; cin >> password2;
 			cout << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 			if (strcmp(password2, "ROSE") == 0) {
 				system("cls");
-				cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-				cout << "				餌僭擊 翮歷棻" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-				cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+				cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+				cout << "				사물함을 열었다" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+				cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 				system("pause"); system("cls");
-				cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-				cout << "				翮潸陛 氈啻...劃陛..." << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-				cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+				cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+				cout << "				열쇠가 있네...뭔가..." << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+				cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 				system("pause"); system("cls");
-				cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-				cout << "				夤戲煎 釭陞 熱 氈擊剪 偽嬴..." << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-				cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+				cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+				cout << "				밖으로 나갈 수 있을거 같아..." << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+				cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 				system("pause");
 				ending();
 			}
 		}
-		else if (ch == Enter && select == 1)    //釭陛晦
+		else if (ch == Enter && select == 1)    //나가기
 			break;
 
 	}
@@ -291,62 +291,62 @@ void level1::rooms1() {
 	while (1) {
 		system("cls");
 		if (select == 0) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				Ⅱ擠學褒" << endl;
-			cout << "				  嘐獎褒" << endl;
-			cout << "				  掖濰褒" << endl;
-			cout << "				  掖鼠褒" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				▶음악실" << endl;
+			cout << "				  미술실" << endl;
+			cout << "				  교장실" << endl;
+			cout << "				  교무실" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 1) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  擠學褒" << endl;
-			cout << "				Ⅱ嘐獎褒" << endl;
-			cout << "				  掖濰褒" << endl;
-			cout << "				  掖鼠褒" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  음악실" << endl;
+			cout << "				▶미술실" << endl;
+			cout << "				  교장실" << endl;
+			cout << "				  교무실" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 2) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  擠學褒" << endl;
-			cout << "				  嘐獎褒" << endl;
-			cout << "				Ⅱ掖濰褒" << endl;
-			cout << "				  掖鼠褒" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  음악실" << endl;
+			cout << "				  미술실" << endl;
+			cout << "				▶교장실" << endl;
+			cout << "				  교무실" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 3) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  擠學褒" << endl;
-			cout << "				  嘐獎褒" << endl;
-			cout << "				  掖濰褒" << endl;
-			cout << "				Ⅱ掖鼠褒" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  음악실" << endl;
+			cout << "				  미술실" << endl;
+			cout << "				  교장실" << endl;
+			cout << "				▶교무실" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 
 		ch = _getch();
-		if (ch == 80) {                      //嬴楚煎 頂塭晦
+		if (ch == 80) {                      //아래로 내라기
 			if (select == 3) select = 0;
 			else select++;
 		}
-		else if (ch == 72) {                 //嬪煎 螢葬晦
+		else if (ch == 72) {                 //위로 올리기
 			if (select == 0) select = 3;
 			else select--;
 		}
-		else if (ch == Enter && select == 0)      //擠學褒菟橫陛晦
+		else if (ch == Enter && select == 0)      //음악실들어가기
 			music_room();
 
-		else if (ch == Enter && select == 1)      //嘐獎褒菟橫陛晦
+		else if (ch == Enter && select == 1)      //미술실들어가기
 			art_room();
 
-		else if (ch == Enter && select == 2) {     //掖濰褒菟橫陛晦
+		else if (ch == Enter && select == 2) {     //교장실들어가기
 			system("cls");
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				濡啖氈擠" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				잠겨있음" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl;
 			system("pause"); system("cls");
 		}
 
-		else if (ch == Enter && select == 3)      //掖鼠褒菟橫陛晦
+		else if (ch == Enter && select == 3)      //교무실들어가기
 			teacher_room();
 
 	}
@@ -355,20 +355,20 @@ void level1::rooms1() {
 
 void level1::music_room() {
 	system("cls");
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl;
-	cout << "            天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl;
-	cout << "           太       ﹥﹥      ﹥﹥       太      ﹥﹥      ﹥﹥      ﹥﹥      太" << endl;
-	cout << "           太       ﹥﹥      ﹥﹥       太      ﹥﹥      ﹥﹥      ﹥﹥      太" << endl;
-	cout << "           太       ﹥﹥      ﹥﹥       太      ﹥﹥      ﹥﹥      ﹥﹥      太" << endl;
-	cout << "           太       ﹥﹥      ﹥﹥       太      ﹥﹥      ﹥﹥      ﹥﹥      太" << endl;
-	cout << "           太       ﹥﹥      ﹥﹥       太      ﹥﹥      ﹥﹥      ﹥﹥      太" << endl;
-	cout << "           太        太        太        太        太       太        太       太" << endl;
-	cout << "           太        太        太        太        太       太        太       太" << endl;
-	cout << "           太        太        太        太        太       太        太       太" << endl;
-	cout << "           太        太        太        太        太       太        太       太" << endl;
-	cout << "           太        太        太        太        太       太        太       太" << endl;
-	cout << "            天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl;
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl;
+	cout << "            ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl;
+	cout << "           ㅣ       ■■      ■■       ㅣ      ■■      ■■      ■■      ㅣ" << endl;
+	cout << "           ㅣ       ■■      ■■       ㅣ      ■■      ■■      ■■      ㅣ" << endl;
+	cout << "           ㅣ       ■■      ■■       ㅣ      ■■      ■■      ■■      ㅣ" << endl;
+	cout << "           ㅣ       ■■      ■■       ㅣ      ■■      ■■      ■■      ㅣ" << endl;
+	cout << "           ㅣ       ■■      ■■       ㅣ      ■■      ■■      ■■      ㅣ" << endl;
+	cout << "           ㅣ        ㅣ        ㅣ        ㅣ        ㅣ       ㅣ        ㅣ       ㅣ" << endl;
+	cout << "           ㅣ        ㅣ        ㅣ        ㅣ        ㅣ       ㅣ        ㅣ       ㅣ" << endl;
+	cout << "           ㅣ        ㅣ        ㅣ        ㅣ        ㅣ       ㅣ        ㅣ       ㅣ" << endl;
+	cout << "           ㅣ        ㅣ        ㅣ        ㅣ        ㅣ       ㅣ        ㅣ       ㅣ" << endl;
+	cout << "           ㅣ        ㅣ        ㅣ        ㅣ        ㅣ       ㅣ        ㅣ       ㅣ" << endl;
+	cout << "            ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl;
 	system("pause");
 
 	int ch = 0;
@@ -377,16 +377,16 @@ void level1::music_room() {
 	while (1) {
 		system("cls");
 		if (select == 0) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				Ⅱ濠撮 獄棻" << endl;
-			cout << "				  斜傖 除棻" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				▶자세히 본다" << endl;
+			cout << "				  그냥 간다" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 1) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  濠撮 獄棻" << endl;
-			cout << "				Ⅱ斜傖 除棻" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  자세히 본다" << endl;
+			cout << "				▶그냥 간다" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 
 		ch = _getch();
@@ -398,54 +398,54 @@ void level1::music_room() {
 			if (select == 0) select = 1;
 			else select = 0;
 		}
-		else if (ch == Enter && select == 0)   //嬴喻學爾爾晦
+		else if (ch == Enter && select == 0)   //피아노악보보기
 			piano();
 
-		else if (ch == Enter && select == 1)    //擠學褒釭陛晦
+		else if (ch == Enter && select == 1)    //음악실나가기
 			break;
 	}
 }
 
 void level1::piano() {
 	system("cls");
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "				學爾陛 氈啻...?" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "				악보가 있네...?" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 	system("pause"); system("cls");
 
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "				Q : 嘐 + 溯 + 衛 + 塭 = ? " << endl << "				(檜 朝 擅濠葬)" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "				Q : 미 + 레 + 시 + 라 = ? " << endl << "				(이 힌트는 앞자리)" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 	system("pause"); system("cls");
 }
 
 void level1::art_room() {
 	system("cls");
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl;
-	cout << "	                         ﹥﹥" << endl;
-	cout << "	                       ﹥    ﹥" << endl;
-	cout << "	                       ﹥    ﹥" << endl;
-	cout << "	                        ﹥  ﹥ " << endl;
-	cout << "	                       ﹥    ﹥ " << endl;
-	cout << "	                       ﹥    ﹥" << endl;
-	cout << "	                       ﹥    ﹥ " << endl;
-	cout << "	                       ﹥    ﹥ " << endl;
-	cout << "	                       ﹥﹥﹥﹥" << endl << endl << endl << endl << endl;
-	cout << "				戮堅鼻檜 氈啻 .. ? " << endl << endl << endl;
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl;
+	cout << "	                         ■■" << endl;
+	cout << "	                       ■    ■" << endl;
+	cout << "	                       ■    ■" << endl;
+	cout << "	                        ■  ■ " << endl;
+	cout << "	                       ■    ■ " << endl;
+	cout << "	                       ■    ■" << endl;
+	cout << "	                       ■    ■ " << endl;
+	cout << "	                       ■    ■ " << endl;
+	cout << "	                       ■■■■" << endl << endl << endl << endl << endl;
+	cout << "				석고상이 있네 .. ? " << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl;
 	system("pause"); system("cls");
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl;
-	cout << "	                             ﹥﹥" << endl;
-	cout << "	                         ﹥﹥﹥﹥﹥﹥" << endl;
-	cout << "	                         ﹥        ﹥" << endl;
-	cout << "	                         ﹥        ﹥" << endl;
-	cout << "	                         ﹥﹥﹥﹥﹥﹥" << endl;
-	cout << "	                             ﹥﹥" << endl;
-	cout << "	                             ﹥﹥" << endl;
-	cout << "	                             ﹥﹥" << endl;
-	cout << "	                             ﹥﹥" << endl << endl << endl << endl << endl;
-	cout << "				蜂纂蒂 嫦唯....! " << endl << endl << endl << endl;
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl;
+	cout << "	                             ■■" << endl;
+	cout << "	                         ■■■■■■" << endl;
+	cout << "	                         ■        ■" << endl;
+	cout << "	                         ■        ■" << endl;
+	cout << "	                         ■■■■■■" << endl;
+	cout << "	                             ■■" << endl;
+	cout << "	                             ■■" << endl;
+	cout << "	                             ■■" << endl;
+	cout << "	                             ■■" << endl << endl << endl << endl << endl;
+	cout << "				망치를 발견....! " << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl;
 	system("pause"); system("cls");
 	int ch = 0;
 	int select = 0;
@@ -453,36 +453,36 @@ void level1::art_room() {
 	while (1) {
 		system("cls");
 		if (select == 0) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				Ⅱ戮堅鼻擊 髦髦 藥獄棻" << endl;
-			cout << "				  戮堅鼻擊 撮啪 藥獄棻" << endl;
-			cout << "				  釭蒂 廓 藥獄棻" << endl;
-			cout << "				  斜傖 除棻" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				▶석고상을 살살 쳐본다" << endl;
+			cout << "				  석고상을 세게 쳐본다" << endl;
+			cout << "				  나를 한번 쳐본다" << endl;
+			cout << "				  그냥 간다" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 1) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  戮堅鼻擊 髦髦 藥獄棻" << endl;
-			cout << "				Ⅱ戮堅鼻擊 撮啪 藥獄棻" << endl;
-			cout << "				  釭蒂 廓 藥獄棻" << endl;
-			cout << "				  斜傖 除棻" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  석고상을 살살 쳐본다" << endl;
+			cout << "				▶석고상을 세게 쳐본다" << endl;
+			cout << "				  나를 한번 쳐본다" << endl;
+			cout << "				  그냥 간다" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 2) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  戮堅鼻擊 髦髦 藥獄棻" << endl;
-			cout << "				  戮堅鼻擊 撮啪 藥獄棻" << endl;
-			cout << "				Ⅱ釭蒂 廓 藥獄棻" << endl;
-			cout << "				  斜傖 除棻" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  석고상을 살살 쳐본다" << endl;
+			cout << "				  석고상을 세게 쳐본다" << endl;
+			cout << "				▶나를 한번 쳐본다" << endl;
+			cout << "				  그냥 간다" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 3) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  戮堅鼻擊 髦髦 藥獄棻" << endl;
-			cout << "				  戮堅鼻擊 撮啪 藥獄棻" << endl;
-			cout << "				  釭蒂 廓 藥獄棻" << endl;
-			cout << "				Ⅱ斜傖 除棻" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  석고상을 살살 쳐본다" << endl;
+			cout << "				  석고상을 세게 쳐본다" << endl;
+			cout << "				  나를 한번 쳐본다" << endl;
+			cout << "				▶그냥 간다" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 
 
@@ -495,48 +495,48 @@ void level1::art_room() {
 			if (select == 0) select = 3;
 			else select--;
 		}
-		else if (ch == Enter && select == 0) {   //髦髦藹
+		else if (ch == Enter && select == 0) {   //살살침
 			system("cls");
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				傘鼠 髦髦蟻濫嬴 ..." << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				너무 살살쳤잖아 ..." << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 			system("pause");
 		}
 
-		else if (ch == Enter && select == 1) {   //撮啪藹
+		else if (ch == Enter && select == 1) {   //세게침
 			system("cls");
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				廓蒂 嫦唯" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				번호를 발견" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 			system("pause"); system("cls");
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl;
-			cout << "				﹥﹥﹥﹥﹥﹥﹥﹥" << endl;
-			cout << "				﹥" << endl;
-			cout << "				﹥﹥﹥﹥﹥﹥﹥" << endl;
-			cout << "				              ﹥ " << endl;
-			cout << "				               ﹥" << endl;
-			cout << "				               ﹥" << endl;
-			cout << "				              ﹥" << endl;
-			cout << "				﹥﹥﹥﹥﹥﹥﹥" << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl;
+			cout << "				■■■■■■■■" << endl;
+			cout << "				■" << endl;
+			cout << "				■■■■■■■" << endl;
+			cout << "				              ■ " << endl;
+			cout << "				               ■" << endl;
+			cout << "				               ■" << endl;
+			cout << "				              ■" << endl;
+			cout << "				■■■■■■■" << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 			system("pause"); system("cls");
 		}
 
-		else if (ch == Enter && select == 2) {   //陳 藹
+		else if (ch == Enter && select == 2) {   //날 침
 			system("cls");
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				....." << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl; system("pause"); system("cls");
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				戲學...." << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				퍽....." << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl; system("pause"); system("cls");
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				으악...." << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 			system("pause"); system("cls");
 
 			cout << "gameover" << endl;
 			exit(0);
 		}
 
-		else if (ch == Enter && select == 3) {   //髦髦藹
+		else if (ch == Enter && select == 3) {   //살살침
 			break;
 		}
 	}
@@ -546,22 +546,22 @@ void level1::teacher_room() {
 	int password;
 	while (1) {
 		system("cls");
-		cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-		cout << "				綠塵廓陛 仄腴..." << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-		cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+		cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+		cout << "				비밀번호가 필ㅇ됴해..." << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+		cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		system("pause"); system("cls");
-		cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-		cout << "				綠塵廓蒂 殮溘衛蹂 -3濠葬 (牖憮 : 擠學褒, 嘐獎褒) " << endl << "				綠廓殮溘->";
+		cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+		cout << "				비밀번호를 입력하시요 -3자리 (순서 : 음악실, 미술실) " << endl << "				비번입력->";
 		cin >> password;
 		cout << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-		cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl;
+		cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl;
 		if (password == 185)
 			teacher_roomO();
 		else {
 			system("cls");
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				綠塵廓陛 準濠釭" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				비밀번호가 틀렷자나" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 			system("pause");
 			break;
 		}
@@ -570,13 +570,13 @@ void level1::teacher_room() {
 
 void level1::teacher_roomO() {
 	system("cls");
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "				掖鼠褒翮葡" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "				교무실열림" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 	system("pause"); system("cls");
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "				掖饕縑 翮潸 嫦唯 " << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "				교탁에 열쇠 발견 " << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 	system("pause"); system("cls");
 
 	int ch = 0;
@@ -585,16 +585,16 @@ void level1::teacher_roomO() {
 	while (1) {
 		system("cls");
 		if (select == 0) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				Ⅱ鄹晦" << endl;
-			cout << "				  斜傖 除棻" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				▶줍기" << endl;
+			cout << "				  그냥 간다" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 1) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  鄹晦" << endl;
-			cout << "				Ⅱ斜傖 除棻" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  줍기" << endl;
+			cout << "				▶그냥 간다" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 
 		ch = _getch();
@@ -606,16 +606,16 @@ void level1::teacher_roomO() {
 			if (select == 0) select = 1;
 			else select = 0;
 		}
-		else if (ch == Enter && select == 0) { //2類戲煎陛晦
+		else if (ch == Enter && select == 0) { //2층으로가기
 			system("cls");
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << endl << "				2類戲煎 陛朝 翮潸蒂 菜棻" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << endl << "				2층으로 가는 열쇠를 획득했다" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 			system("pause");
 			open();
 		}
 
-		else if (ch == Enter && select == 1)    //釭陛晦
+		else if (ch == Enter && select == 1)    //나가기
 			rooms1();
 	}
 }
@@ -627,25 +627,25 @@ open::open() {
 	while (1) {
 		system("cls");
 		if (select == 0) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				Ⅱ1類 萃楝爾晦" << endl;
-			cout << "				  2類戲煎 陛朝 啗欽" << endl;
-			cout << "				  釭陛爾晦" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				▶1층 둘러보기" << endl;
+			cout << "				  2층으로 가는 계단" << endl;
+			cout << "				  나가보기" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 1) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  1類 萃楝爾晦" << endl;
-			cout << "				Ⅱ2類戲煎 陛朝 啗欽" << endl;
-			cout << "				  釭陛爾晦" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  1층 둘러보기" << endl;
+			cout << "				▶2층으로 가는 계단" << endl;
+			cout << "				  나가보기" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 2) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  1類 萃楝爾晦" << endl;
-			cout << "				  2類戲煎 陛朝 啗欽" << endl;
-			cout << "				Ⅱ釭陛爾晦" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  1층 둘러보기" << endl;
+			cout << "				  2층으로 가는 계단" << endl;
+			cout << "				▶나가보기" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 
 		ch = _getch();
@@ -658,31 +658,31 @@ open::open() {
 			if (select == 0) select = 2;
 			else select--;
 		}
-		else if (ch == Enter && select == 0)     //1類萃楝爾楝陛晦
+		else if (ch == Enter && select == 0)     //1층둘러보러가기
 			rooms1();
 
-		else if (ch == Enter && select == 1) {  //2類戲煎螢塭陛晦
+		else if (ch == Enter && select == 1) {  //2층으로올라가기
 			system("cls");
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				                   ﹥﹥﹥" << endl;
-			cout << "				                   ﹥" << endl;
-			cout << "				             ﹥﹥﹥﹥" << endl;
-			cout << "				             ﹥" << endl;
-			cout << "				       ﹥﹥﹥﹥" << endl;
-			cout << "				       ﹥" << endl;
-			cout << "				 ﹥﹥﹥﹥" << endl;
-			cout << "				 ﹥		剽幔...剽幔剽幔..." << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				                   ■■■" << endl;
+			cout << "				                   ■" << endl;
+			cout << "				             ■■■■" << endl;
+			cout << "				             ■" << endl;
+			cout << "				       ■■■■" << endl;
+			cout << "				       ■" << endl;
+			cout << "				 ■■■■" << endl;
+			cout << "				 ■		뚜벅...뚜벅뚜벅..." << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 			system("pause");
 
 			rooms2();
 		}
-		else if (ch == Enter && select == 2) {    //釭陛晦
+		else if (ch == Enter && select == 2) {    //나가기
 			system("cls");
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				蘗蘗...! 櫺櫺...! 髦溥輿撮蹂....!" << endl << endl;
-			cout << "				嬴鼠紫 橈朝 蛭... 翮潸蒂 瓊嬴瑭撿雖..." << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				쿵쿵...! 쾅쾅...! 살려주세요....!" << endl << endl;
+			cout << "				아무도 없는 듯... 열쇠를 찾아봐야지..." << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl;
 			system("pause");
 		}
 	}
@@ -695,25 +695,25 @@ ending::ending() {
 	while (1) {
 		system("cls");
 		if (select == 0) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				Ⅱ1類 萃楝爾晦" << endl;
-			cout << "				  2類戲煎 陛朝 啗欽" << endl;
-			cout << "				  釭陛爾晦" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				▶1층 둘러보기" << endl;
+			cout << "				  2층으로 가는 계단" << endl;
+			cout << "				  나가보기" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 1) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  1類 萃楝爾晦" << endl;
-			cout << "				Ⅱ2類戲煎 陛朝 啗欽" << endl;
-			cout << "				  釭陛爾晦" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  1층 둘러보기" << endl;
+			cout << "				▶2층으로 가는 계단" << endl;
+			cout << "				  나가보기" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 2) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  1類 萃楝爾晦" << endl;
-			cout << "				  2類戲煎 陛朝 啗欽" << endl;
-			cout << "				Ⅱ釭陛爾晦" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  1층 둘러보기" << endl;
+			cout << "				  2층으로 가는 계단" << endl;
+			cout << "				▶나가보기" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 
 		ch = _getch();
@@ -726,13 +726,13 @@ ending::ending() {
 			if (select == 0) select = 2;
 			else select--;
 		}
-		else if (ch == Enter && select == 0)     //1類萃楝爾楝陛晦
+		else if (ch == Enter && select == 0)     //1층둘러보러가기
 			rooms1();
 
-		else if (ch == Enter && select == 1)    //2類戲煎螢塭陛晦
+		else if (ch == Enter && select == 1)    //2층으로올라가기
 			rooms2();
 
-		else if (ch == Enter && select == 2) {    //釭陛晦
+		else if (ch == Enter && select == 2) {    //나가기
 			THEend();
 			system("pause");
 		}
@@ -743,30 +743,30 @@ void ending::THEend() {
 
 	system("cls");
 	cout << "" << endl << endl << endl << endl;
-	cout << " 		﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥" << endl;
-	cout << " 		﹥﹥		       ﹥" << endl;
-	cout << " 		﹥   ﹥		       ﹥" << endl;
-	cout << " 		﹥	 ﹥	       ﹥               ﹥﹥" << endl;
-	cout << " 		﹥	     ﹥	       ﹥             ﹥    ﹥" << endl;
-	cout << " 		﹥	        ﹥     ﹥            ﹥      ﹥    ﹥ " << endl;
-	cout << " 		﹥		﹥     ﹥             ﹥    ﹥    ﹥  " << endl;
-	cout << " 		﹥		﹥     ﹥              ﹥﹥      ﹥" << endl;
-	cout << " 		﹥		﹥     ﹥       ﹥﹥﹥﹥﹥﹥﹥﹥﹥" << endl;
-	cout << " 		﹥		﹥     ﹥      ﹥     ﹥﹥     " << endl;
-	cout << " 		﹥		﹥     ﹥     ﹥     ﹥﹥       " << endl;
-	cout << " 		﹥	        ﹥     ﹥    ﹥     ﹥﹥" << endl;
-	cout << " 		﹥		﹥     ﹥          ﹥﹥﹥" << endl;
-	cout << " 		﹥	     ≒ ﹥     ﹥          ﹥    ﹥" << endl;
-	cout << " 		﹥		﹥     ﹥  ﹥﹥﹥﹥﹥     ﹥   " << endl;
-	cout << " 		﹥		﹥     ﹥                  ﹥" << endl;
-	cout << " 		﹥		﹥     ﹥                   ﹥" << endl;
-	cout << " 		  ﹥		﹥﹥﹥﹥                     ﹥" << endl;
-	cout << " 		     ﹥	        ﹥" << endl;
-	cout << " 			 ﹥     ﹥" << endl;
-	cout << " 			     ﹥ ﹥" << endl;
-	cout << " 				﹥	" << endl << endl << endl;
+	cout << " 		■■■■■■■■■■■■" << endl;
+	cout << " 		■■		       ■" << endl;
+	cout << " 		■   ■		       ■" << endl;
+	cout << " 		■	 ■	       ■               ■■" << endl;
+	cout << " 		■	     ■	       ■             ■    ■" << endl;
+	cout << " 		■	        ■     ■            ■      ■    ■ " << endl;
+	cout << " 		■		■     ■             ■    ■    ■  " << endl;
+	cout << " 		■		■     ■              ■■      ■" << endl;
+	cout << " 		■		■     ■       ■■■■■■■■■" << endl;
+	cout << " 		■		■     ■      ■     ■■     " << endl;
+	cout << " 		■		■     ■     ■     ■■       " << endl;
+	cout << " 		■	        ■     ■    ■     ■■" << endl;
+	cout << " 		■		■     ■          ■■■" << endl;
+	cout << " 		■	     ● ■     ■          ■    ■" << endl;
+	cout << " 		■		■     ■  ■■■■■     ■   " << endl;
+	cout << " 		■		■     ■                  ■" << endl;
+	cout << " 		■		■     ■                   ■" << endl;
+	cout << " 		  ■		■■■■                     ■" << endl;
+	cout << " 		     ■	        ■" << endl;
+	cout << " 			 ■     ■" << endl;
+	cout << " 			     ■ ■" << endl;
+	cout << " 				■	" << endl << endl << endl;
 	cout << "" << endl << endl << endl << endl;
-	cout << "                                  驍  轎  撩  奢";
+	cout << "                                  탈  출  성  공";
 	cout << "" << endl << endl << endl << endl;
 
 	exit(0);
@@ -774,47 +774,47 @@ void ending::THEend() {
 
 start::start() {
 	cout << "" << endl << endl;
-	cout << "	 ﹥﹥﹥﹥﹥﹥  ﹥﹥﹥﹥﹥﹥    ﹥﹥﹥﹥﹥        ﹥          ﹥﹥﹥﹥﹥﹥  ﹥﹥﹥﹥﹥﹥" << endl;
-	cout << "	 ﹥            ﹥             ﹥               ﹥  ﹥        ﹥        ﹥  ﹥" << endl;
-	cout << "	 ﹥            ﹥            ﹥               ﹥    ﹥       ﹥        ﹥  ﹥" << endl;
-	cout << "	 ﹥﹥﹥﹥﹥﹥  ﹥﹥﹥﹥﹥﹥  ﹥              ﹥﹥﹥﹥﹥      ﹥﹥﹥﹥﹥﹥  ﹥﹥﹥﹥﹥﹥" << endl;
-	cout << "	 ﹥                      ﹥  ﹥             ﹥         ﹥    ﹥            ﹥" << endl;
-	cout << "	 ﹥                      ﹥   ﹥           ﹥           ﹥   ﹥            ﹥" << endl;
-	cout << "	 ﹥﹥﹥﹥﹥﹥  ﹥﹥﹥﹥﹥﹥    ﹥﹥﹥﹥﹥ ﹥             ﹥  ﹥            ﹥﹥﹥﹥﹥﹥" << endl << endl << endl << endl;
-	cout << "			 		﹥﹥﹥﹥﹥﹥﹥﹥" << endl;
-	cout << "			 		﹥﹥          ﹥" << endl;
-	cout << "			 		﹥   ﹥       ﹥" << endl;
-	cout << "			 		﹥      ﹥    ﹥" << endl;
-	cout << "			 		﹥         ﹥ ﹥" << endl;
-	cout << "			 		﹥         ﹥ ﹥" << endl;
-	cout << "			 		﹥         ﹥ ﹥" << endl;
-	cout << "			 		﹥         ﹥ ﹥" << endl;
-	cout << "			 		﹥         ﹥ ﹥" << endl;
-	cout << "			 		﹥       ≒﹥ ﹥" << endl;
-	cout << "			 		﹥         ﹥ ﹥" << endl;
-	cout << "				          ﹥       ﹥ ﹥" << endl;
-	cout << "			                     ﹥    ﹥ ﹥" << endl;
-	cout << "			                        ﹥ ﹥ " << endl;
-	cout << "		 				   ﹥" << endl << endl << endl;
+	cout << "	 ■■■■■■  ■■■■■■    ■■■■■        ■          ■■■■■■  ■■■■■■" << endl;
+	cout << "	 ■            ■             ■               ■  ■        ■        ■  ■" << endl;
+	cout << "	 ■            ■            ■               ■    ■       ■        ■  ■" << endl;
+	cout << "	 ■■■■■■  ■■■■■■  ■              ■■■■■      ■■■■■■  ■■■■■■" << endl;
+	cout << "	 ■                      ■  ■             ■         ■    ■            ■" << endl;
+	cout << "	 ■                      ■   ■           ■           ■   ■            ■" << endl;
+	cout << "	 ■■■■■■  ■■■■■■    ■■■■■ ■             ■  ■            ■■■■■■" << endl << endl << endl << endl;
+	cout << "			 		■■■■■■■■" << endl;
+	cout << "			 		■■          ■" << endl;
+	cout << "			 		■   ■       ■" << endl;
+	cout << "			 		■      ■    ■" << endl;
+	cout << "			 		■         ■ ■" << endl;
+	cout << "			 		■         ■ ■" << endl;
+	cout << "			 		■         ■ ■" << endl;
+	cout << "			 		■         ■ ■" << endl;
+	cout << "			 		■         ■ ■" << endl;
+	cout << "			 		■       ●■ ■" << endl;
+	cout << "			 		■         ■ ■" << endl;
+	cout << "				          ■       ■ ■" << endl;
+	cout << "			                     ■    ■ ■" << endl;
+	cout << "			                        ■ ■ " << endl;
+	cout << "		 				   ■" << endl << endl << endl;
 	system("pause"); system("cls");
 
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "				褻濛徹 : 寞酈 & Enter" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "				조작법 : 방향키 & Enter" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl;
 	system("pause"); system("cls");
 
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl;
 	school_draw();
-	cout << "				換集爾棲 掖艘棻..." << endl << endl << endl;
-	cout << "				僥檜 濡啖氈棻..." << endl;
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl;
+	cout << "				눈떠보니 학교였다..." << endl << endl << endl;
+	cout << "				문이 잠겨있다..." << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl;
 	system("pause"); system("cls");
 
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl;
 	key_draw();
-	cout << "				翮潸陛 蹂棻..." << endl << endl << endl;
-	cout << "				輿嬪蒂 萃楝爾濠..." << endl;
-	cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl;
+	cout << "				열쇠가 필요하다..." << endl << endl << endl;
+	cout << "				주위를 둘러보자..." << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl;
 	system("pause");
 
 
@@ -824,25 +824,25 @@ start::start() {
 	while (1) {
 		system("cls");
 		if (select == 0) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				Ⅱ1類 萃楝爾晦" << endl;
-			cout << "				  2類戲煎 陛朝 啗欽" << endl;
-			cout << "				  釭陛爾晦" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天";
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				▶1층 둘러보기" << endl;
+			cout << "				  2층으로 가는 계단" << endl;
+			cout << "				  나가보기" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ";
 		}
 		else if (select == 1) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  1類 萃楝爾晦" << endl;
-			cout << "				Ⅱ2類戲煎 陛朝 啗欽" << endl;
-			cout << "				  釭陛爾晦" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  1층 둘러보기" << endl;
+			cout << "				▶2층으로 가는 계단" << endl;
+			cout << "				  나가보기" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 		else if (select == 2) {
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				  1類 萃楝爾晦" << endl;
-			cout << "				  2類戲煎 陛朝 啗欽" << endl;
-			cout << "				Ⅱ釭陛爾晦" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				  1층 둘러보기" << endl;
+			cout << "				  2층으로 가는 계단" << endl;
+			cout << "				▶나가보기" << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 		}
 
 		ch = _getch();
@@ -855,24 +855,24 @@ start::start() {
 			if (select == 0) select = 2;
 			else select--;
 		}
-		else if (ch == Enter && select == 0)    //1類萃楝爾楝陛晦
+		else if (ch == Enter && select == 0)    //1층둘러보러가기
 			break;
 
-		else if (ch == Enter && select == 1) {  //2類戲煎螢塭陛晦
+		else if (ch == Enter && select == 1) {  //2층으로올라가기
 			system("cls");
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				測饑測饑..菟菟..." << endl << endl << endl;
-			cout << "				僥檜 濡啖氈啻.. 翮潸陛 蹂剪 偽棻" << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				덜컹덜컹..흔들흔들..." << endl << endl << endl;
+			cout << "				문이 잠겨있네.. 열쇠가 필요한거 같다" << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 			system("pause");
 		}
 
-		else if (ch == Enter && select == 2) {    //釭陛晦
+		else if (ch == Enter && select == 2) {    //나가기
 			system("cls");
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "				蘗蘗...! 櫺櫺...! 髦溥輿撮蹂....!" << endl << endl;
-			cout << "				嬴鼠紫 橈朝 蛭... 翮潸蒂 瓊嬴瑭撿雖..." << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-			cout << "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "				쿵쿵...! 쾅쾅...! 살려주세요....!" << endl << endl;
+			cout << "				아무도 없는 듯... 열쇠를 찾아봐야지..." << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+			cout << "ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ" << endl << endl << endl << endl << endl << endl << endl << endl << endl;
 			system("pause");
 		}
 	}
@@ -880,46 +880,46 @@ start::start() {
 
 void start::school_draw() {
 	cout << endl << endl;
-	cout << "	                          ﹥﹥" << endl;
-	cout << "	                        ﹥﹥﹥﹥" << endl;
-	cout << "	                     ﹥﹥﹥﹥﹥﹥﹥" << endl;
-	cout << "	                       ﹥﹤﹤﹤﹥" << endl;
-	cout << "	                       ﹥﹤﹤﹤﹥" << endl;
-	cout << "	                       ﹥﹤﹤﹤﹥" << endl;
-	cout << "	     ﹥                ﹥﹤﹤﹤﹥                          ﹥" << endl;
-	cout << "	    ﹥﹥               ﹥﹥﹥﹥﹥                         ﹥﹥" << endl;
-	cout << "	   ﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥" << endl;
-	cout << "	   ﹥﹤﹤﹥﹥﹤﹤﹥﹥﹤﹤﹥﹥﹥﹤﹤﹥﹥﹤﹤﹥﹥﹤﹤﹥﹥﹤﹤﹥﹥" << endl;
-	cout << "	   ﹥﹤﹤﹥﹥﹤﹤﹥﹥﹤﹤﹥﹥﹥﹤﹤﹥﹥﹤﹤﹥﹥﹤﹤﹥﹥﹤﹤﹥﹥" << endl;
-	cout << "	   ﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥" << endl;
-	cout << "	   ﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹤﹤﹤﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥" << endl;
-	cout << "	   ﹥﹤﹤﹥﹥﹤﹤﹥﹥﹥﹥﹤﹤﹤﹥﹥﹥﹥﹤﹤﹥﹥﹤﹤﹥﹥﹤﹤﹥﹥" << endl;
-	cout << "	   ﹥﹤﹤﹥﹥﹤﹤﹥﹥﹥﹥﹤﹤﹤﹥﹥﹥﹥﹤﹤﹥﹥﹤﹤﹥﹥﹤﹤﹥﹥" << endl;
-	cout << "	   ﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹤﹤﹤﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥" << endl;
-	cout << "	   ﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹤﹤﹤﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥﹥" << endl << endl << endl;
+	cout << "	                          ■■" << endl;
+	cout << "	                        ■■■■" << endl;
+	cout << "	                     ■■■■■■■" << endl;
+	cout << "	                       ■□□□■" << endl;
+	cout << "	                       ■□□□■" << endl;
+	cout << "	                       ■□□□■" << endl;
+	cout << "	     ■                ■□□□■                          ■" << endl;
+	cout << "	    ■■               ■■■■■                         ■■" << endl;
+	cout << "	   ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■" << endl;
+	cout << "	   ■□□■■□□■■□□■■■□□■■□□■■□□■■□□■■" << endl;
+	cout << "	   ■□□■■□□■■□□■■■□□■■□□■■□□■■□□■■" << endl;
+	cout << "	   ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■" << endl;
+	cout << "	   ■■■■■■■■■■■□□□■■■■■■■■■■■■■■■■" << endl;
+	cout << "	   ■□□■■□□■■■■□□□■■■■□□■■□□■■□□■■" << endl;
+	cout << "	   ■□□■■□□■■■■□□□■■■■□□■■□□■■□□■■" << endl;
+	cout << "	   ■■■■■■■■■■■□□□■■■■■■■■■■■■■■■■" << endl;
+	cout << "	   ■■■■■■■■■■■□□□■■■■■■■■■■■■■■■■" << endl << endl << endl;
 
 }
 
 void start::key_draw() {
 	cout << endl << endl;
-	cout << "				  ﹥" << endl;
-	cout << "				﹥﹥﹥" << endl;
-	cout << "			      ﹥﹥  ﹥﹥" << endl;
-	cout << "			    ﹥﹥      ﹥﹥" << endl;
-	cout << "			  ﹥﹥          ﹥﹥" << endl;
-	cout << "                            ﹥﹥     ﹥﹥" << endl;
-	cout << "			      ﹥﹥  ﹥﹥" << endl;
-	cout << "				 ﹥﹥" << endl;
-	cout << "				 ﹥﹥" << endl;
-	cout << "				 ﹥﹥" << endl;
-	cout << "				 ﹥﹥" << endl;
-	cout << "				 ﹥﹥" << endl;
-	cout << "				 ﹥﹥" << endl;
-	cout << "				 ﹥﹥" << endl;
-	cout << "				 ﹥" << endl;
-	cout << "				 ﹥﹥" << endl;
-	cout << "				 ﹥" << endl;
-	cout << "				 ﹥﹥" << endl;
-	cout << "				 ﹥﹥" << endl;
-	cout << "				  ﹥" << endl << endl << endl;
+	cout << "				  ■" << endl;
+	cout << "				■■■" << endl;
+	cout << "			      ■■  ■■" << endl;
+	cout << "			    ■■      ■■" << endl;
+	cout << "			  ■■          ■■" << endl;
+	cout << "                            ■■     ■■" << endl;
+	cout << "			      ■■  ■■" << endl;
+	cout << "				 ■■" << endl;
+	cout << "				 ■■" << endl;
+	cout << "				 ■■" << endl;
+	cout << "				 ■■" << endl;
+	cout << "				 ■■" << endl;
+	cout << "				 ■■" << endl;
+	cout << "				 ■■" << endl;
+	cout << "				 ■" << endl;
+	cout << "				 ■■" << endl;
+	cout << "				 ■" << endl;
+	cout << "				 ■■" << endl;
+	cout << "				 ■■" << endl;
+	cout << "				  ■" << endl << endl << endl;
 }
