@@ -878,7 +878,7 @@ start::start() {
 	}
 }
 
-void start::school_draw() {
+void start::school_draw() {	//학교그림
 	cout << endl << endl;
 	cout << "	                          ■■" << endl;
 	cout << "	                        ■■■■" << endl;
@@ -900,7 +900,7 @@ void start::school_draw() {
 
 }
 
-void start::key_draw() {
+void start::key_draw() {	//열쇠그림
 	cout << endl << endl;
 	cout << "				  ■" << endl;
 	cout << "				■■■" << endl;
