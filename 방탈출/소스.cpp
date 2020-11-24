@@ -1,7 +1,7 @@
 #include <iostream>
 #include <conio.h>
 using namespace std;
-//
+//한글이 
 #include "渦.h"	
 
 #define Enter 13
